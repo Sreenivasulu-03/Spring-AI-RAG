@@ -21,13 +21,13 @@ A demo project integrating **Spring Boot + Ollama + RAG (Retrieval-Augmented Gen
    ollama run mistral
    
 2.Clone this repo:
-
-git clone https://github.com/YOUR_USERNAME/spring-ai-rag.git
+   bash
+   git clone https://github.com/Sreenivasulu-03/spring-ai-rag.git
 cd spring-ai-rag
 
 3.Run the app:
-
-./mvnw spring-boot:run
+   bash
+   ./mvnw spring-boot:run
 
 4.POST http://localhost:8080/chat
 Body: { "message": "Hello AI!" }
